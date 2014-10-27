@@ -1,3 +1,7 @@
 Dapper Orm
 Author: guoxin.lai@gmail.com
 2009-07-10
+
+一个短小精短小精悍，简单易用的orm框架，主要通过反射实现。目前主要支持Sql server、My Sql，以及支持OleDb数据库驱动的数据库类型（如Access、Excel等）的访问，且可通过接口实现其它数据库类型，目前已经有第三方的Orangle数据库访问的实现。
+本软件最初实现于2009年，在我们自己的项目里使用，并持续改进优化。现通过github与大家分享，欢迎使用并提供宝贵意见。
+
