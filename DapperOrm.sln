@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54A6A719-D833-491C-B135-02366FE7F61E}"
+	ProjectSection(SolutionItems) = preProject
+		DapperOrm.vsmdi = DapperOrm.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperOrm", "DapperOrm\DapperOrm.csproj", "{0D89DE0C-F7AF-44B8-895E-28487B804564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperOrmDemo", "DapperOrmDemo\DapperOrmDemo.csproj", "{82085B82-3A68-4B3B-B386-55860B6D700E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperOrm.Model", "DapperOrmModel\DapperOrm.Model.csproj", "{756D3F69-EC51-45EA-9E7B-745ED789241B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperOrmTest", "DapperOrmTest\DapperOrmTest.csproj", "{B60A6EFD-38AA-4B7F-82D8-E0D0B924D403}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DapperOrm.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D89DE0C-F7AF-44B8-895E-28487B804564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D89DE0C-F7AF-44B8-895E-28487B804564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D89DE0C-F7AF-44B8-895E-28487B804564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D89DE0C-F7AF-44B8-895E-28487B804564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82085B82-3A68-4B3B-B386-55860B6D700E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82085B82-3A68-4B3B-B386-55860B6D700E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82085B82-3A68-4B3B-B386-55860B6D700E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82085B82-3A68-4B3B-B386-55860B6D700E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756D3F69-EC51-45EA-9E7B-745ED789241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756D3F69-EC51-45EA-9E7B-745ED789241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756D3F69-EC51-45EA-9E7B-745ED789241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756D3F69-EC51-45EA-9E7B-745ED789241B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60A6EFD-38AA-4B7F-82D8-E0D0B924D403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60A6EFD-38AA-4B7F-82D8-E0D0B924D403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60A6EFD-38AA-4B7F-82D8-E0D0B924D403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60A6EFD-38AA-4B7F-82D8-E0D0B924D403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

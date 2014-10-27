@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DapperOrm.SqlServerOrmDal" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACBAAA=</HashCode>
+      <FileName>OrmDal\SqlServerOrmDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DapperOrm.MySqlOrmDal" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACBAAA=</HashCode>
+      <FileName>OrmDal\MySqlOrmDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DapperOrm.OleDbOrmDal" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.25" />
+    <InheritanceLine Type="DapperOrm.OrmDal" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="3.579" />
+        <Point X="6.75" Y="3.875" />
+        <Point X="3.271" Y="3.875" />
+        <Point X="3.271" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACBAAA=</HashCode>
+      <FileName>OrmDal\OleDbOrmDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DapperOrm.OracleOrmDal" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACBAAA=</HashCode>
+      <FileName>OrmDal\OracleOrmDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DapperOrm.OrmDal">
+    <Position X="5" Y="0.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAQAIAAAAAAAgAgAAACAgAAAAAAAGAIAAAAAAGhAIA=</HashCode>
+      <FileName>OrmDal\OrmDal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DapperOrm.IOrmDal">
+    <Position X="2" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAEgAIA=</HashCode>
+      <FileName>OrmDal\IOrmDal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="SimSun" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,19 @@
+CREATE TABLE `department` (
+  `DepartmentId` int(11) NOT NULL AUTO_INCREMENT,
+  `DepartmentName` varchar(20) NOT NULL,
+  `Description` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`DepartmentId`)
+) ENGINE=InnoDB DEFAULT CHARSET=gb2312
+
+
+CREATE TABLE `employee` (
+  `EmployeeId` int(11) NOT NULL AUTO_INCREMENT,
+  `DepartmentId` int(11) NOT NULL,
+  `FullName` varchar(50) NOT NULL,
+  `Gender` TINYINT(1) NOT NULL,
+  `Birthday` datetime DEFAULT NULL,
+  `CreateDate` datetime NOT NULL,
+  PRIMARY KEY (`EmployeeId`),
+  KEY `DepartmentId` (`DepartmentId`),
+  CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`DepartmentId`) REFERENCES `department` (`DepartmentId`)
+) ENGINE=InnoDB DEFAULT CHARSET=gb2312
